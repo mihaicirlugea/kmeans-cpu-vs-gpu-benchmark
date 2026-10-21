@@ -1,0 +1,9 @@
+# CPU benchmark + data generation (local)
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+
+# GPU benchmark (benchmark_gpu.ipynb) - needs an NVIDIA GPU, tested on Google Colab (T4):
+# pip install cudf-cu12 cuml-cu12 --extra-index-url=https://pypi.nvidia.com
